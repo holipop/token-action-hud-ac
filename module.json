@@ -1,0 +1,55 @@
+{
+    "id": "token-action-hud-ac",
+    "title": "Token Action HUD for Anime Campaign",
+    "description": "A plug-in module for the Token Action HUD Core module which adds compatibility for the Epithet/Anime Campaign system.",
+    "authors": [
+      {
+        "name": "Holipop",
+        "discord": "@holipop"
+      }
+    ],
+    "version": "v1.0",
+    "compatibility": {
+      "minimum": "11",
+      "verified": "11.313"
+    },
+    "esmodules": [
+        "tahac.js"
+    ],
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      }
+    ],
+    "relationships": {
+      "systems": [
+        {
+          "id": "animecampaign",
+          "type": "system",
+          "compatibility": [
+            {
+              "minimum": "1.0",
+              "verified": "1.0"
+            }
+          ]
+        }
+      ],
+      "requires": [
+        {
+          "id": "token-action-hud-core",
+          "type": "module",
+          "compatibility": [
+            {
+              "minimum": "1.5.0",
+              "maximum": "1.5",
+              "verified": "1.5.0"
+            }
+          ]
+        }
+      ]
+    },
+    "manifest": "https://github.com/holipop/token-action-hud-ac/releases/download/1.0/system.json",
+    "download": "https://github.com/holipop/token-action-hud-ac/releases/download/1.0/token-action-hud-ac.zip"
+  }
